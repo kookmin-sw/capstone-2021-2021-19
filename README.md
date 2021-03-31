@@ -1,11 +1,10 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=350446&assignment_repo_type=GroupAssignmentRepo)
 # Welcome to GitHub
 
-캡스톤 팀 생성을 축하합니다.
 
 ## 팀소개 및 페이지를 꾸며주세요.
 
-- 프로젝트 소개
+- 개발자를 위한 코드 스타일, 코드 analysis status reporter plugin 제작
   - 프로젝트 설치방법 및 데모, 사용방법, 프리뷰등을 readme.md에 작성.
   - Api나 사용방법등 내용이 많을경우 wiki에 꾸미고 링크 추가.
 
@@ -27,7 +26,7 @@
 
 ### 1. 프로잭트 소개
 
-프로젝트
+# 개발자를 위한 코드 스타일, 코드 analysis status reporter plugin 제작
 
 ### 2. 소개 영상
 
@@ -44,8 +43,7 @@
 소스코드제출시 설치법이나 사용법을 작성하세요.
 
 ### 5. 기타
-
-추가적인 내용은 자유롭게 작성하세요.
+실제 코드 작성 공간: https://github.com/sheayun-kmu/capstone-fadu-2021
 
 
 ## Markdown을 사용하여 내용꾸미기
