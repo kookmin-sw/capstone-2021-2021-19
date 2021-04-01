@@ -1,10 +1,25 @@
-## Welcome to GitHub Pages
+## Welcome to 19Team GitHub Pages
+실제 코드 작성 깃 주소 : https://github.com/sheayun-kmu/capstone-fadu-2021
+팀페이지 주소 : https://kookmin-sw-github.io/capstone-2021-19
 
-You can use the [editor on GitHub](https://github.com/kookmin-sw/capstone-2021-19/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+//목차 
+- [프로젝트 소개](#프로젝트-소개)
+- [팀 소개](# 팀-소개)
+- [시스템 구성도](#시스템-구성도)
+- [개발](#개발)
+ - [개발 환경](#개발-환경)
+ - [Static Analysis Status](#Static-Analysis-Status)
+ - [Code Styling Status](#Code-Styling-Status)
+- [협업 공간](#협업 공간)
 
-### Markdown
+## 프로젝트 소개
+## 팀 소개
+## 시스템 구성도
+## 개발
+### 개발 환경
+### Static Analysis Status
+### Code Styling Status
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
