@@ -1,5 +1,5 @@
 ## Welcome to 19 Team GitHub Pages
-**실제 코드 작성 깃 주소** : https://github.com/sheayun-kmu/capstone-fadu-2021  
+**실제 코드 작성 깃 주소** : https://github.com/sheayun-kmu/capstone-fadu-2021    
 **팀페이지 주소** : https://kookmin-sw.github.io/capstone-2021-19/  
 
 ## 목차  
