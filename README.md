@@ -19,7 +19,7 @@
 
 한 눈에 알아보기 쉬운 코드! 클린한 코드!  
 필요한 코드! 예외처리가 잘 된 코드!  
-그러한 코드를 위해 코드 결과 분석하여 더욱 쉽고 간편하게 보여주기 위해 만드는 플러그인  
+그러한 코드를 위해 작성한 코드를 분석하여 더욱 쉽고 간편하게 보여주기 위해 만드는 플러그인  
 팀장이 말하지 않아도 스스로 알 수 있다! 빠밤!  
 
 ## 소개 영상  
@@ -53,17 +53,17 @@ Git : https://github.com/MinjeongKim98/capstone-fadu-2021
 ### Static Analysis Status  
 
 [ikos](https://github.com/NASA-SW-VnV/ikos) 를 이용하여 코드를 분석해 나온 결과를 json으로 변경해주는 translator를 만든다.  
-translator의 결과를 보여주는 파서를 플러그인 형태로 만들어 출력한다.  
+translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
 
 ### Code Styling Status  
 
 [clang-format](https://clang.llvm.org/docs/ClangFormat.html) 을 이용하여 코드를 분석해 나온 결과를 xml으로 변경해주는 translator를 만든다.  
-translator의 결과를 보여주는 파서를 플러그인 형태로 만들어 출력한다.  
+translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
 
 ## 사용법  
 
 1. target directory의 hpi 파일을 다운받아 Jenkins > Jenkins 관리 > 플러그인 관리 > 고급 > 플러그인 올리기에 해당 hpi을 올린다.  
-2. github repository와 연결한 프로젝트에서 build의 execute shell을 이용해 clang-format / IKOS를 원하는 파일에 수행한다.  
+2. github repository와 연결한 프로젝트에서 build의 execute shell을 이용해 clang-format / IKOS 툴을 원하는 코드에 대해 수행한다.
 3. Build시 설치한 플러그인을 추가한다.  
 4. 모두 끝나면 빌드하기를 누르면 사이드 패널에 각 플러그인이 생기고 해당 아이콘을 누르면 결과를 볼 수 있다.  
 
