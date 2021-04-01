@@ -30,14 +30,14 @@
 이름: 이은지  
 StudentID: 20171674 
 Role : Static Analysis Status Report
-E-mail : ji0859@kookmin.ac.kr
+E-mail : ji0859@kookmin.ac.kr  
 Git : https://github.com/ji0859/capstone-fadu-2021
 
 [Image]  
 이름: 김민정  
 StudentID: 20171589  
 Role : Code Styling Status Report
-E-mail : kimmj@kookmin.ac.kr
+E-mail : kimmj@kookmin.ac.kr  
 Git : https://github.com/MinjeongKim98/capstone-fadu-2021
 
 ## 시스템 구성도
