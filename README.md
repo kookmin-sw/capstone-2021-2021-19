@@ -2,7 +2,7 @@
 **실제 코드 작성 깃 주소** : https://github.com/sheayun-kmu/capstone-fadu-2021  
 **팀페이지 주소** : https://kookmin-sw.github.io/capstone-2021-19/  
 
-# 목차  
+## 목차  
 - [프로젝트 소개](#프로젝트-소개)  
 - [팀 소개](#팀-소개)  
 - [시스템 구성도](#시스템-구성도)  
@@ -42,7 +42,7 @@ Git : https://github.com/MinjeongKim98/capstone-fadu-2021
 
 ## 시스템 구성도  
 
-![텍스트](home/user/docker.jpg)  
+![image](./image/docker.jpg)  
 
 ## 개발  
 ### 개발 환경  
