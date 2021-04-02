@@ -7,9 +7,9 @@
 - [팀 소개](#팀-소개)  
 - [시스템 구성도](#시스템-구성도)  
 - [개발](#개발)  
- - [개발 환경](#개발-환경)  
- - [Static Analysis Status](#Static-Analysis-Status)  
- - [Code Styling Status](#Code-Styling-Status)  
+  - [개발 환경](#개발-환경)  
+  - [Static Analysis Status](#Static-Analysis-Status)  
+  - [Code Styling Status](#Code-Styling-Status)  
 - [사용법](#사용법)  
 - [협업 공간](#협업-공간)  
 
@@ -52,12 +52,12 @@ Git : https://github.com/MinjeongKim98/capstone-fadu-2021
 
 ### Static Analysis Status  
 
-[ikos](https://github.com/NASA-SW-VnV/ikos) 를 이용하여 코드를 분석해 나온 결과를 json으로 변경해주는 translator를 만든다.  
+[Ikos](https://github.com/NASA-SW-VnV/ikos) 를 이용하여 코드를 분석해 나온 결과를 json으로 변경해주는 translator를 만든다.  
 translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
 
 ### Code Styling Status  
 
-[clang-format](https://clang.llvm.org/docs/ClangFormat.html) 을 이용하여 코드를 분석해 나온 결과를 xml으로 변경해주는 translator를 만든다.  
+[Clang-Format](https://clang.llvm.org/docs/ClangFormat.html) 을 이용하여 코드를 분석해 나온 결과를 xml으로 변경해주는 translator를 만든다.  
 translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
 
 ## 사용법  
