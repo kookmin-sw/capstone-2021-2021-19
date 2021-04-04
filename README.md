@@ -75,5 +75,5 @@ translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 �
 일정 관리 : https://trello.com/b/sV0n4Xuf/schedule  
 
 ## 문서
-중간 발표 자료(./docs/capstone-19조_중간발표자료.pdf)
+중간 발표 자료: [중간발표 pdf 파일](./docs/capstone-19조_중간발표자료.pdf)
 
