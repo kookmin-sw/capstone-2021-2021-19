@@ -23,6 +23,8 @@
 팀장이 말하지 않아도 스스로 알 수 있다! 빠밤!  
 
 ## 소개 영상  
+1. 소개 영상: https://youtu.be/LoVoDv4fPWg
+2. 홍보용(간단한 애니매이션 형태): https://youtu.be/XhEEV1QTwdI
 
 ## 팀 소개  
   
