@@ -1,77 +1,79 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=350446&assignment_repo_type=GroupAssignmentRepo)
-# Welcome to GitHub
+## Welcome to 19 Team GitHub Pages
+**실제 코드 작성 깃 주소** : https://github.com/sheayun-kmu/capstone-fadu-2021    
+**팀페이지 주소** : https://kookmin-sw.github.io/capstone-2021-19/  
 
-캡스톤 팀 생성을 축하합니다.
+## 목차  
+- [프로젝트 소개](#프로젝트-소개)  
+- [팀 소개](#팀-소개)  
+- [시스템 구성도](#시스템-구성도)  
+- [개발](#개발)  
+  - [개발 환경](#개발-환경)  
+  - [Static Analysis Status](#Static-Analysis-Status)  
+  - [Code Styling Status](#Code-Styling-Status)  
+- [사용법](#사용법)  
+- [협업 공간](#협업-공간)  
 
-## 팀소개 및 페이지를 꾸며주세요.
+## 프로젝트 소개  
 
-- 프로젝트 소개
-  - 프로젝트 설치방법 및 데모, 사용방법, 프리뷰등을 readme.md에 작성.
-  - Api나 사용방법등 내용이 많을경우 wiki에 꾸미고 링크 추가.
+**개발자를 위한 코드 스타일, analysis status reporter plugin**  
 
-- 팀페이지 꾸미기
-  - 프로젝트 소개 및 팀원 소개
-  - index.md 예시보고 수정.
+한 눈에 알아보기 쉬운 코드! 클린한 코드!  
+필요한 코드! 예외처리가 잘 된 코드!  
+그러한 코드를 위해 작성한 코드를 분석하여 더욱 쉽고 간편하게 보여주기 위해 만드는 플러그인  
+팀장이 말하지 않아도 스스로 알 수 있다! 빠밤!  
 
-- GitHub Pages 리파지토리 Settings > Options > GitHub Pages 
-  - Source를 marster branch
-  - Theme Chooser에서 태마선택
-  - 수정후 팀페이지 확인하여 점검.
+## 소개 영상  
+1. 소개 영상: https://youtu.be/LoVoDv4fPWg
+2. 홍보용(간단한 애니매이션 형태): https://youtu.be/XhEEV1QTwdI
 
-**팀페이지 주소** -> https://kookmin-sw.github.io/ '{{자신의 리파지토리 아이디}}'
+## 팀 소개  
+  
+[Image]  
+이름: 이은지  
+StudentID: 20171674  
+Role : Static Analysis Status Report  
+E-mail : ji0859@kookmin.ac.kr   
+Git : https://github.com/ji0859/capstone-fadu-2021  
 
-**예시)** 2020년 0조  https://kookmin-sw.github.io/capstone-2020-0/
+[Image]  
+이름: 김민정  
+StudentID: 20171589  
+Role : Code Styling Status Report  
+E-mail : kimmj@kookmin.ac.kr  
+Git : https://github.com/MinjeongKim98/capstone-fadu-2021  
 
+## 시스템 구성도  
 
-## 내용에 아래와 같은 내용들을 추가하세요.
+![image](./image/docker.jpg)  
 
-### 1. 프로잭트 소개
+## 개발  
+### 개발 환경  
 
-프로젝트
+1. 도커에서 개발 가능하도록 개발 환경 구축  
+2. AWS의 Fargate를 이용한 쉬운 컨테이너 배포 환경 구축  
 
-### 2. 소개 영상
+### Static Analysis Status  
 
-프로젝트 소개하는 영상을 추가하세요
+[Ikos](https://github.com/NASA-SW-VnV/ikos) 를 이용하여 코드를 분석해 나온 결과를 json으로 변경해주는 translator를 만든다.  
+translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
 
-### 3. 팀 소개
+### Code Styling Status  
 
-팀을 소개하세요.
+[Clang-Format](https://clang.llvm.org/docs/ClangFormat.html) 을 이용하여 코드를 분석해 나온 결과를 xml으로 변경해주는 translator를 만든다.  
+translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
 
-팀원정보 및 담당이나 사진 및 SNS를 이용하여 소개하세요.
+## 사용법  
 
-### 4. 사용법
+1. target directory의 hpi 파일을 다운받아 Jenkins > Jenkins 관리 > 플러그인 관리 > 고급 > 플러그인 올리기에 해당 hpi을 올린다.  
+2. github repository와 연결한 프로젝트에서 build의 execute shell을 이용해 clang-format / IKOS 툴을 원하는 코드에 대해 수행한다.
+3. Build시 설치한 플러그인을 추가한다.  
+4. 모두 끝나면 빌드하기를 누르면 사이드 패널에 각 플러그인이 생기고 해당 아이콘을 누르면 결과를 볼 수 있다.  
 
-소스코드제출시 설치법이나 사용법을 작성하세요.
+## 협업 공간  
 
-### 5. 기타
+노션 : https://www.notion.so/a13b63cc11884340b6c5d57b70d62794  
+일정 관리 : https://trello.com/b/sV0n4Xuf/schedule  
 
-추가적인 내용은 자유롭게 작성하세요.
+## 문서
+중간 발표 자료: [중간발표 pdf 파일](./docs/capstone-19조_중간발표자료.pdf)
 
-
-## Markdown을 사용하여 내용꾸미기
-
-Markdown은 작문을 스타일링하기위한 가볍고 사용하기 쉬운 구문입니다. 여기에는 다음을위한 규칙이 포함됩니다.
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-자세한 내용은 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Support or Contact
-
-readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://help.github.com/articles/about-readmes/) 이나 [contact support](https://github.com/contact) 을 이용하세요.
