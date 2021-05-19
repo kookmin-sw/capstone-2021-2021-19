@@ -65,9 +65,9 @@ translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 �
 ## 사용법  
 
 1. target directory의 hpi 파일을 다운받아 Jenkins > Jenkins 관리 > 플러그인 관리 > 고급 > 플러그인 올리기에 해당 hpi을 올린다.  
-2. github repository와 연결한 프로젝트에서 build의 execute shell을 이용해 clang-format / IKOS 툴을 원하는 코드에 대해 수행한다.
-3. Build시 설치한 플러그인을 추가한다.  
-4. 모두 끝나면 빌드하기를 누르면 사이드 패널에 각 플러그인이 생기고 해당 아이콘을 누르면 결과를 볼 수 있다.  
+2. github repository와 연결한 프로젝트에서 build의 execute shell을 이용해 clang-format / IKOS 툴을 commit한 파일에 대해 검사한다.
+3. Build시 설치한 플러그인을 선택하고, 앞서 검사한 결과를 지닌 report의 이름과 형식을 적는다.  
+4. 모두 끝나면 빌드하기를 누르면 검사한 결과에 대한 그래프가 보여진다.  
 
 ## 협업 공간  
 
