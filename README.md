@@ -23,8 +23,12 @@
 팀장이 말하지 않아도 스스로 알 수 있다! 빠밤!  
 
 ## 소개 영상  
-1. 소개 영상: https://youtu.be/LoVoDv4fPWg
-2. 홍보용(간단한 애니매이션 형태): https://youtu.be/XhEEV1QTwdI
+1. 소개 영상 <br>
+  [![Video Label](https://img.youtube.com/vi/LoVoDv4fPWg/0.jgp)](https://youtu.be/LoVoDv4fPWg)
+3. 홍보용(간단한 애니매이션 형태) <br>
+  [![Video Label](https://img.youtube.com/vi/XhEEV1QTwdI/0.jpg)](https://youtu.be/XhEEV1QTwdI)
+5. 시연 영상 <br>
+  [![Video Label](https://img.youtube.com/vi/LJM9ZKbF-mg/0.jpg)](https://youtu.be/LJM9ZKbF-mg)
 
 ## 팀 소개  
   
@@ -76,4 +80,4 @@ translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 �
 
 ## 문서
 중간 발표 자료: [중간발표 pdf 파일](./docs/capstone-19조_중간발표자료.pdf)
-
+기말 발표 자료: [기말발표 pdf 파일](./docs/19조DSP.pdf)
