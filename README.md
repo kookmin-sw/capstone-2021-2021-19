@@ -24,11 +24,11 @@
 
 ## 소개 영상  
 1. 소개 영상 <br>
-  [![Video Label](https://img.youtube.com/vi/LoVoDv4fPWg/0.jgp)](https://youtu.be/LoVoDv4fPWg)
+  [![Video Label](https://img.youtube.com/vi/LoVoDv4fPWg/0.jpg)](https://youtu.be/LoVoDv4fPWg) </br>
 3. 홍보용(간단한 애니매이션 형태) <br>
-  [![Video Label](https://img.youtube.com/vi/XhEEV1QTwdI/0.jpg)](https://youtu.be/XhEEV1QTwdI)
+  [![Video Label](https://img.youtube.com/vi/XhEEV1QTwdI/0.jpg)](https://youtu.be/XhEEV1QTwdI) </br> 
 5. 시연 영상 <br>
-  [![Video Label](https://img.youtube.com/vi/LJM9ZKbF-mg/0.jpg)](https://youtu.be/LJM9ZKbF-mg)
+  [![Video Label](https://img.youtube.com/vi/LJM9ZKbF-mg/0.jpg)](https://youtu.be/LJM9ZKbF-mg) </br>
 
 ## 팀 소개  
   
