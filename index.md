@@ -1,52 +1,33 @@
-## Welcome to 19Team GitHub Pages
-실제 코드 작성 깃 주소 : https://github.com/sheayun-kmu/capstone-fadu-2021
-팀페이지 주소 : https://kookmin-sw-github.io/capstone-2021-19
+## Welcome to 19 Team GitHub Pages
+실제 코드 작성 깃 주소 : https://github.com/sheayun-kmu/capstone-fadu-2021 </br>
+팀페이지 주소 : https://kookmin-sw-github.io/capstone-2021-19 </br>
 
-
-//목차 
+목차 
 - [프로젝트 소개](#프로젝트-소개)
-- [팀 소개](# 팀-소개)
-- [시스템 구성도](#시스템-구성도)
+- [시연 영상](# 시연-영상)
 - [개발](#개발)
- - [개발 환경](#개발-환경)
  - [Static Analysis Status](#Static-Analysis-Status)
  - [Code Styling Status](#Code-Styling-Status)
 - [협업 공간](#협업 공간)
 
-## 프로젝트 소개
-## 팀 소개
-## 시스템 구성도
-## 개발
-### 개발 환경
-### Static Analysis Status
-### Code Styling Status
+### 프로젝트 소개
+개발자를 위한 코드 스타일, analysis status reporter plugin
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+한 눈에 알아보기 쉬운 코드! 클린한 코드!
+필요한 코드! 예외처리가 잘 된 코드!
+그러한 코드를 위해 작성한 코드를 분석하여 더욱 쉽고 간편하게 보여주기 위해 만드는 플러그인
+팀장이 말하지 않아도 스스로 알 수 있다! 빠밤!
+### 시연 영상
+시연 영상 <br>
+  [![Video Label](https://img.youtube.com/vi/LJM9ZKbF-mg/0.jpg)](https://youtu.be/LJM9ZKbF-mg) </br>
+  
+### 개발
+### Static Analysis Status  
 
-```markdown
-Syntax highlighted code block
+[Ikos](https://github.com/NASA-SW-VnV/ikos) 를 이용하여 코드를 분석해 나온 결과를 json으로 변경해주는 translator를 만든다.  
+translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
 
-# Header 1
-## Header 2
-### Header 3
+### Code Styling Status  
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kookmin-sw/capstone-2021-19/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Clang-Format](https://clang.llvm.org/docs/ClangFormat.html) 을 이용하여 코드를 분석해 나온 결과를 xml으로 변경해주는 translator를 만든다.  
+translator의 결과를 보여주는 파서를 작성한다. 해당 파서가 보여주는 결과와 해당 결과를 가시적으로 표현하는 대시보드를 작성해서 플러그인으로 빌드한다.  
