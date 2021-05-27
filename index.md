@@ -1,6 +1,6 @@
 ## Welcome to 19 Team GitHub Pages
-실제 코드 작성 깃 주소 : https://github.com/sheayun-kmu/capstone-fadu-2021 </br>
-팀페이지 주소 : https://kookmin-sw-github.io/capstone-2021-19 </br>
+실제 코드 작성 깃 주소 : https://github.com/sheayun-kmu/capstone-fadu-2021
+팀페이지 주소 : https://kookmin-sw-github.io/capstone-2021-19
 
 목차 
 - [프로젝트 소개](#프로젝트-소개)
@@ -16,8 +16,8 @@
 그러한 코드를 위해 작성한 코드를 분석하여 더욱 쉽고 간편하게 보여주기 위해 만드는 플러그인
 팀장이 말하지 않아도 스스로 알 수 있다! 빠밤!
 ### 시연 영상
-시연 영상 <br>
-  [![Video Label](https://img.youtube.com/vi/LJM9ZKbF-mg/0.jpg)](https://youtu.be/LJM9ZKbF-mg) </br>
+시연 영상 
+  [![Video Label](https://img.youtube.com/vi/LJM9ZKbF-mg/0.jpg)](https://youtu.be/LJM9ZKbF-mg)
   
 ### 개발
 ### Static Analysis Status  
