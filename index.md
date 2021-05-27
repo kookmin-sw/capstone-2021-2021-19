@@ -4,11 +4,9 @@
 
 목차 
 - [프로젝트 소개](#프로젝트-소개)
-- [시연 영상](# 시연-영상)
+- [시연 영상](#시연-영상)
 - [개발](#개발)
- - [Static Analysis Status](#Static-Analysis-Status)
- - [Code Styling Status](#Code-Styling-Status)
-- [협업 공간](#협업 공간)
+
 
 ### 프로젝트 소개
 개발자를 위한 코드 스타일, analysis status reporter plugin
