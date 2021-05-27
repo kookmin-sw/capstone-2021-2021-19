@@ -4,6 +4,7 @@
 
 ## 목차  
 - [프로젝트 소개](#프로젝트-소개)  
+- [Abstract] (#Abstract)
 - [팀 소개](#팀-소개)  
 - [시스템 구성도](#시스템-구성도)  
 - [개발](#개발)  
@@ -21,6 +22,15 @@
 필요한 코드! 예외처리가 잘 된 코드!  
 그러한 코드를 위해 작성한 코드를 분석하여 더욱 쉽고 간편하게 보여주기 위해 만드는 플러그인  
 팀장이 말하지 않아도 스스로 알 수 있다! 빠밤!  
+
+## Abstract
+
+This project aims to reporting analysis check using clang-format, IKOS.
+clang-format checks coding style defined by a company or a team.
+To cutomize coding style using clang-format, you can write .clang-format file.
+IKOS checks useless or containing potential risk code.
+After checking clang-format and IKOS, the result is connected to Jenkins warning-ng plugin.
+Finally, you can see the checking result through graph.
 
 ## 소개 영상  
 1. 소개 영상 <br>
