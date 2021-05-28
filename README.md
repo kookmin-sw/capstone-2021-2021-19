@@ -42,14 +42,13 @@ Finally, you can see the checking result through graph.
 
 ## 팀 소개  
   
-[Image]  
 이름: 이은지  
 StudentID: 20171674  
 Role : Static Analysis Status Report  
 E-mail : ji0859@kookmin.ac.kr   
 Git : https://github.com/ji0859/capstone-fadu-2021  
 
-[Image]  
+
 이름: 김민정  
 StudentID: 20171589  
 Role : Code Styling Status Report  
